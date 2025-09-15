@@ -1,0 +1,140 @@
+.headr {
+    width: fill;
+    height: 50px;
+    display: flex;
+    margin: 15px;
+
+}
+
+.fax {
+    display: flex;
+    gap: 15px;
+
+
+}
+
+.words {
+    display: flex;
+    align-self: last baseline;
+    gap: 30px;
+    font-size: 18px;
+    background: #ffffff;
+    height: 20px;
+    width: 1000px;
+}
+
+.p1 {
+    color: black;
+    background: #ffffff;
+}
+
+.p1:hover {
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+}
+
+.p2 {
+    color: black;
+    background: #ffffff;
+}
+
+.p2:hover {
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+}
+
+.p3 {
+    color: black;
+    background: #ffffff;
+}
+
+.p3:hover {
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+}
+
+.img {
+    margin-top: -30px;
+
+}
+
+.as {
+    margin-top: -30px;
+    margin-left: 15px;
+    background: #ffffff;
+}
+
+.ass {
+    margin-left: 15px;
+    background: #ffffff;
+
+}
+
+.catalogue {
+    font-size: 150px;
+}
+
+.options {
+    margin-top: -25px;
+    margin-left: 15px;
+}
+
+.grid-container {
+    margin-top: -1100px;
+    display: grid;
+    grid-template-columns: repeat(1, 0.1fr);
+    grid-template-rows: repeat(10, 0.1cr);
+
+}
+
+.grid-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: scale(0.2);
+
+}
+
+.text {
+    transform: scale(70%);
+    display: flex;
+    justify-content: center;
+}
+
+
+.m {
+    display: grid;
+}
+
+.bg {
+    z-index: -1;
+    position: fixed;
+    height: 100%;
+}
+
+.text2 {
+    margin-left: 15px;
+    font-size: 18px;
+    width: 30px;
+}
+
+.foot {
+    margin-top: -135px;
+    margin-left: 15px;
+    font-size: 18px;
+    width: 100px;
+}
+
+.main {
+    width: 10000px;
+    height: 10000px;
+    display: flex;
+}
+
+.bg2 {
+    display: flex;
+    z-index: -1;
+    position: fixed;
+    height: 100%;
+    
+}
